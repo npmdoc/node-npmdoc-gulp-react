@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/sindresorhus/gulp-react"
-
-    >gulp-react (v3.1.0)</a>
+    <a href="https://github.com/sindresorhus/gulp-react">gulp-react (v3.1.0)</a>
 </h1>
 <h4>Precompile Facebook React JSX templates into JavaScript</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-react">module gulp-react</a><ol>
 
@@ -117,7 +110,7 @@
 		}
 
 		if (file.isStream()) {
-			cb(new gutil.PluginError(&#x27;gulp-react&#x27;, &#x27;Streaming not supported&#x27;));
+			cb(new gutil.PluginError('gulp-react', 'Streaming not supported'));
 			return;
 		}
 
@@ -132,15 +125,15 @@
 			var res = react.transformWithDetails(file.contents.toString(), opts);
 
 			file.contents = new Buffer(res.code);
-			file.path = gutil.replaceExtension(file.path, &#x27;.js&#x27;);
+			file.path = gutil.replaceExtension(file.path, '.js');
 
-			if (res.sourceMap &#x26;&#x26; file.sourceMap) {
+			if (res.sourceMap &amp;&amp; file.sourceMap) {
 				applySourceMap(file, res.sourceMap);
 			}
 
 			this.push(file);
 		} catch (err) {
-			this.emit(&#x27;error&#x27;, new gutil.PluginError(&#x27;gulp-react&#x27;, err, {
+			this.emit('error', new gutil.PluginError('gulp-react', err, {
 				fileName: file.path
 			}));
 		}
@@ -174,9 +167,9 @@
 			var res = react.transformWithDetails(file.contents.<span class="apidocCodeKeywordSpan">toString</span>(), opts);
 
 			file.contents = new Buffer(res.code);
-			file.path = gutil.replaceExtension(file.path, &#x27;.js&#x27;);
+			file.path = gutil.replaceExtension(file.path, '.js');
 
-			if (res.sourceMap &#x26;&#x26; file.sourceMap) {
+			if (res.sourceMap &amp;&amp; file.sourceMap) {
 				applySourceMap(file, res.sourceMap);
 			}
 ...</pre></li>
@@ -208,9 +201,9 @@
 			var res = react.transformWithDetails(file.contents.<span class="apidocCodeKeywordSpan">toString</span>(), opts);
 
 			file.contents = new Buffer(res.code);
-			file.path = gutil.replaceExtension(file.path, &#x27;.js&#x27;);
+			file.path = gutil.replaceExtension(file.path, '.js');
 
-			if (res.sourceMap &#x26;&#x26; file.sourceMap) {
+			if (res.sourceMap &amp;&amp; file.sourceMap) {
 				applySourceMap(file, res.sourceMap);
 			}
 ...</pre></li>
@@ -225,3 +218,4 @@
     ]
 </div>
 </div>
+</body></html>
