@@ -1,9 +1,14 @@
-# api documentation for  [gulp-react (v3.1.0)](https://github.com/sindresorhus/gulp-react)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-react.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-react) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-react.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-react)
+# npmdoc-gulp-react
+
+#### api documentation for  [gulp-react (v3.1.0)](https://github.com/sindresorhus/gulp-react)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-react.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-react) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-react.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-react)
+
 #### Precompile Facebook React JSX templates into JavaScript
 
-[![NPM](https://nodei.co/npm/gulp-react.png?downloads=true)](https://www.npmjs.com/package/gulp-react)
+[![NPM](https://nodei.co/npm/gulp-react.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-react)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-react/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-react_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-react/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-react/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-react/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-react/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-react/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-react/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Sindre Sorhus",
-        "email": "sindresorhus@gmail.com",
         "url": "sindresorhus.com"
     },
     "bugs": {
@@ -65,13 +69,11 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         }
     ],
     "name": "gulp-react",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sindresorhus/gulp-react.git"
@@ -82,16 +84,6 @@
     "version": "3.1.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-react](#apidoc.module.gulp-react)
-
-
-
-# <a name="apidoc.module.gulp-react"></a>[module gulp-react](#apidoc.module.gulp-react)
 
 
 
