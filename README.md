@@ -1,6 +1,6 @@
 # npmdoc-gulp-react
 
-#### api documentation for  [gulp-react (v3.1.0)](https://github.com/sindresorhus/gulp-react)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-react.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-react) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-react.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-react)
+#### basic api documentation for  [gulp-react (v3.1.0)](https://github.com/sindresorhus/gulp-react)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-react.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-react) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-react.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-react)
 
 #### Precompile Facebook React JSX templates into JavaScript
 
@@ -81,7 +81,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "3.1.0"
+    "version": "3.1.0",
+    "bin": {}
 }
 ```
 
